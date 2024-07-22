@@ -49,6 +49,6 @@ class Solution:
                 return [hashmap[num], i]
 
             # Store the counterpart of the number we have seen and current index
-            hashmap[target-num] = i
+            hashmap[target-num] = i #Store the array element as the key and the corresponding index as the value!
 
         
